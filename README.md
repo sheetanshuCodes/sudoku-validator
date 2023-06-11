@@ -10,7 +10,7 @@ The Sudoku puzzle is considered valid if:
 
 ## Core Function
 
-The application's functionality is mainly provided by the `sudokuValidator` function. This function takes a 2-D array as an argument, which represents a Sudoku puzzle, and checks if it's valid based on the criteria mentioned above【17†source】.
+The application's functionality is mainly provided by the `sudokuValidator` function. This function takes a 2-D array as an argument, which represents a Sudoku puzzle, and checks if it's valid based on the criteria mentioned above.
 
 Here is the function's signature:
 
@@ -26,7 +26,7 @@ The function returns `true` if the Sudoku puzzle is valid and `false` otherwise.
 
 The application uses a web form to collect the Sudoku puzzle input from the user. The form has a text field where the user can enter a 2-D array in JSON format, representing the Sudoku puzzle.
 
-When the form is submitted, the application calls the `sudokuValidator` function with the user's input. If the Sudoku puzzle is valid, the application displays "This is a valid sudoku solution". Otherwise, it displays "This is an invalid sudoku solution"【18†source】.
+When the form is submitted, the application calls the `sudokuValidator` function with the user's input. If the Sudoku puzzle is valid, the application displays "This is a valid sudoku solution". Otherwise, it displays "This is an invalid sudoku solution".
 
 ## Example
 To run the sudoku validation, the user needs to input the sudoku board in JSON format. Here is an example of a valid Sudoku puzzle:
